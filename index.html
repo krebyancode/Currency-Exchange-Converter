@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Currency Exchange</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input_box">
+        <label for="input_amount">Please enter the amount: </label>
+        <input id="input_amount" type="number" placeholder="Enter an amount" />
+        <label for="input_currency">From: </label>
+        <select id="input_currency">
+          <option>USD</option>
+        </select>
+        <label for="output_currency">To: </label>
+        <select id="output_currency">
+          <option>EUR</option>
+        </select>
+      </div>
+      <button id="convert">Convert</button>
+      <button id="replace"><i class="fas fa-exchange-alt"></i></button>
+      <div class="output_box">
+        <p id="entered">Entered amount: <span> </span></p>
+        <p id="converted">Converted amount: <span> </span></p>
+        <p id="currency1"></p>
+        <p id="currency2"></p>
+      </div>
+    </div>
+
+    <script src="currency.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.container {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: lightgrey;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.input_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#convert,
+#replace {
+  text-transform: uppercase;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  color: red;
+}
+
+select,
+input {
+  font-size: 1.1rem;
+}

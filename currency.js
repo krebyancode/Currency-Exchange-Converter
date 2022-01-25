@@ -43,9 +43,9 @@ const getCurrencyRates = async () => {
   enteredAmount.innerText = `${Number(amount).toFixed(
     2
   )} ${exchangeFrom.toUpperCase()}`;
-  if (amount == "") {
-    enteredAmount.innerText = `0.00 ${exchangeFrom.toUpperCase()}`;
-    alert("Please enter an amount to convert!");
+  // if (amount == "") {
+  //   enteredAmount.innerText = `0.00 ${exchangeFrom.toUpperCase()}`;
+  //   alert("Please enter an amount to convert!");
   }
 
   convertedAmount.innerText = `${result} ${exchangeTo.toUpperCase()}`;

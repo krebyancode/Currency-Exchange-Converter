@@ -1,5 +1,5 @@
 # Currency-Exchange-Converter
 
-End date values of currencies can be fetched from an API, converted with unit rates.
+Day close prices of currencies can be fetched from an API, and converted to the selected currency. Developed with JS.
 
 https://krebyancode.github.io/Currency-Exchange-Converter/
